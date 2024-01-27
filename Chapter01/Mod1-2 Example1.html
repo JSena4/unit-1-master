@@ -1,0 +1,26 @@
+<!--Example 1 line 13-->   
+    <!--you can also place internal styles here        
+        place these within <style> tags-->   
+
+    <style>
+        #mydiv {
+            background-color: purple;
+            width: 10%;
+            margin: 0 auto;
+            height: 900px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="mydiv">
+        Hello World!
+    </div>
+
+    <script>
+        var mydiv = document.getElementById("mydiv");
+        mydiv.addEventListener("click", function(){
+            alert("Hello World!");
+        });
+    </script>
+</body>
