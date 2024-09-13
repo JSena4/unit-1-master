@@ -4,7 +4,7 @@ function myFunc() {
     var myDiv = document.getElementById("mydiv");
     myDiv.innerHTML = "Hello World";
 }
-
+console.log('TESTING');
 //initialize function called when the script loads
 function initialize() {
     cities();
