@@ -16,7 +16,7 @@ var cityPop = [
 		population: 27244
 	}
 ];
-
+//TEST COMMENT
 function addColumns(cityPop){
     
     document.querySelectorAll("tr").forEach(function(row, i){
