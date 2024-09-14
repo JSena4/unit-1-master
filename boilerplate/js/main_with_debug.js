@@ -1,3 +1,10 @@
+/**
+ * File: main_with_debug.js
+ * Author: Justin Sena
+ * Date: 2024-09-14
+ * For Geog 575 at University of Wisconsin Madison, Fall 2024
+ */
+
 //Initialize function to call the other functions of this prograam.
 function initialize() {
     createCitiesTable();
